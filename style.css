@@ -385,35 +385,130 @@ p {
 
 }
 
-#contact {
+.card{
     display: flex;
-    padding: 20px;
-    margin: 30px;
     flex-direction: column;
-    text-align: center;
+    width: 250px;
+    /* background: gray; */
+    padding: 10px;
+    box-shadow: 0px 0px 6px gray
+}
+
+.view-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
+}
+
+
+.detail h1{
+    font-size: 1.2em;
+   
+}
+.detail p{
+    font-size: 1.1em;
 
 }
 
-#contact a {
+
+
+
+
+
+
+
+/* ---------------Contact------------- */
+.btn{
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #ff004f;
+    padding: 14px 50px ;
+    border-radius: 6px;
     text-decoration: none;
+    color: rgb(245, 240, 240);
+    background-color: #262626; 
+    transition: background  0.5s ;
 }
-.email, .mobile, .linkedin{
-    padding: 10px;
-    margin: 5px;
-    background-color: cadetblue;
+.btn:hover{
+    background:#ff004f;
 }
+.row{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-left{
+    flex-basis: 35%;
 
-.contact-heading {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
 }
-footer{
-    background-color: rgb(0, 132, 255);
-    height: 25px;
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 8px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 20px;
+}.contact-left a i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.social-icons{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 12px;
+    color:#abadab;
+    display:inline-block ;
+    transition:transform 0.5s ;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background-color: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding:14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
     text-align: center;
-    color:white;
+    background-color: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.copyright i{
+    color: #ff004f;
 }
 
 .none-display{
