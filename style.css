@@ -297,18 +297,17 @@ p {
   gap: 25px;
   margin: 20px;
 }
-
 #projects img {
-    width: 100%;
+  width: 100%;
 }
 
 .project-heading {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    text-decoration: underline;
-    text-shadow: 2px 0px 1px brown;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 0px 1px brown;
 }
 
 .card {
@@ -340,8 +339,8 @@ hr {
 }
 
 /* ---------------Contact------------- */
-#contact{
-    margin-top: 100px;
+#contact {
+  margin-top: 100px;
 }
 .btn2 {
   display: block;
@@ -439,9 +438,8 @@ form .btn2 {
   display: none;
 }
 
-
 /*------------Footer-----------*/
-footer{
-    text-align: center;
-    background: gray;
+footer {
+  text-align: center;
+  background: gray;
 }
