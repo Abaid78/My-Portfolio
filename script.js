@@ -8,9 +8,9 @@ manu.addEventListener("click", function () {
     container.style.height = "max-content"
     navlist.classList.toggle("none-display")
 })
-container.addEventListener("focusout", function () {
-    container.style.height = "60px";
-})
+// container.addEventListener("focusout", function () {
+//     container.style.height = "60px";
+// })
 
 const form = document.forms['submit-to-google-sheet']
       
