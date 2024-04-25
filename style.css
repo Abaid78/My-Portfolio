@@ -20,6 +20,7 @@ nav {
 
 nav a:hover {
   border-bottom: 3px solid red;
+  color: red;
 
 }
 .brand {
@@ -317,11 +318,10 @@ p {
   display: flex;
   flex-direction: column;
   width: 250px;
-
   padding: 10px;
   box-shadow: 0px 0px 3px 3px #928f8f;
-
   height: 400px;
+  text-align: justify;
 }
 hr {
   margin-top: auto;
@@ -338,7 +338,7 @@ hr {
   font-size: 1.2em;
 }
 .detail p {
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 /* ---------------Contact------------- */
