@@ -24,46 +24,6 @@
     .hero-heading {
         padding-left: 20px;
     }
-
-    /* ----------------navbar------------------ */
-    header .container {
-        height: max-content;
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        align-items: flex-start;
-    }
-
-    .navlinks {
-        margin-left: 0%;
-        display: flex;
-        flex-direction: column;
-        margin-left: 20px;
-        margin-top: 10px;
-        padding: 20px;
-
-    }
-
-    .brand {
-        width: 100vw;
-        text-align: center;
-        color: wheat;
-        background: rgb(95, 158, 160);
-        margin-left: 0%;
-        padding: 20px;
-    }
-
-    header {
-        position: fixed;
-        width: 100%;
-        top: 0;
-        overflow: hidden;
-    }
-
-    #manu {
-        display: block;
-    }
-
     /* ------------------home------------ */
     .home {
         height: max-content;
@@ -72,13 +32,17 @@
         margin-left: 0px;
     }
 }
+@media screen and (max-width:700px) {
+    .brand{
+        display: none;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .about {
         display: flex;
         flex-direction: column-reverse;
         height: auto;
-
     }
 
     .content {
