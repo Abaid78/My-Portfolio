@@ -57,6 +57,17 @@ nav a {
   background-color: rgb(136, 135, 133);
 }
 
+/*        Global Classes*/
+
+.headings {
+  margin: auto;
+
+  padding: 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 2px 0px 1px brown;
+}
+
 /* ------------------------HOME------------------ */
 
 .home {
@@ -155,20 +166,9 @@ nav a {
 }
 
 /* -----------------Skills---------------- */
-.skills-heading h2 {
-  position: relative;
-  left: 60%;
-  margin: 20px;
-}
 
-.skills-heading h2::after {
-  content: "";
-  display: block;
-  width: 90px;
-  height: 3px;
-  background: #000;
-  position: absolute;
-}
+
+
 
 .skills-heading img {
   width: 30px;
@@ -260,18 +260,6 @@ p {
   margin: 20px;
 }
 
-#education h1 {
-  display: inline;
-  font-size: 25px;
-  border-bottom: 2px solid;
-}
-
-.eduIcon {
-  color: rgb(73, 54, 54);
-  font-size: 25px;
-  margin-left: 230px;
-}
-
 #education h2 {
   font-weight: 600;
   font-size: 18px;
@@ -305,14 +293,7 @@ p {
   width: 100%;
 }
 
-.project-heading {
-  margin: auto;
 
-  padding: 10px;
-  text-align: center;
-  text-decoration: underline;
-  text-shadow: 2px 0px 1px brown;
-}
 
 .card {
   display: flex;
