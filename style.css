@@ -130,25 +130,15 @@ nav a {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  column-gap: 100px;
+  column-gap: 80px;
   padding: 20px;
+  margin: 20px;
 }
 
 .content {
   width: 85vw;
 }
 
-.about-heading {
-  line-height: 30px;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.about-description {
-  line-height: 25px;
-  color: rgb(83, 82, 82);
-  font-size: large;
-}
 .resume {
   padding: 5px;
   margin: 20px;
@@ -163,6 +153,8 @@ nav a {
 }
 .resume a {
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 /* -----------------Skills---------------- */

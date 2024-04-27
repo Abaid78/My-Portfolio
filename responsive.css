@@ -39,27 +39,9 @@
 }
 
 @media screen and (max-width: 600px) {
-    .about {
-        display: flex;
-        flex-direction: column-reverse;
-        height: auto;
+    .gif{
+        display: none;
     }
-
-    .content {
-        height: max-content;
-    }
-
-    .about-description {
-        width: 100%;
-    }
-
-    .heading h2 {
-        margin-right: 15px;
-
-    }
-
-
-   
 }
 
 @media screen and (max-width: 350px) {
@@ -88,12 +70,6 @@
 
     .pic {
         text-align: center;
-    }
-
-    /* -----------from about class---------- */
-    .about-description {
-        word-wrap: break-word;
-        line-height: normal;
     }
 
 }
