@@ -134,19 +134,13 @@ nav a {
   padding: 20px;
   margin: 20px;
 }
-
-.content {
-  width: 85vw;
-}
-
 .resume {
-  padding: 5px;
+  padding: 10px;
   margin: 20px;
   background-color: #928f8f;
   width: max-content;
   border: 2px solid;
   border-radius: 8px;
-  color: white;
 }
 .resume:hover {
   background-color: #d8d2d2;
