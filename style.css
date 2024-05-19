@@ -300,6 +300,7 @@ p {
   height: 400px;
   text-align: justify;
   transition: transform 0.4s ease-out;
+  border-radius: 8px;
 }
 .card:hover{
   transform: scale(1.05);
